@@ -64,8 +64,9 @@
         <h2 class="text-center"><b>Mars Hemispheres</b></h2>
       </div>
       <!-- Loop through hemispheres dictionary with images and titles -->
-      {% for hemisphere in mars_data.hemisphere_image_urls %}
         <div class="col-md-6">
+      {% for hemisphere in mars_data.hemisphere_image_urls %}
+        <!-- <div class="col-md-6"> -->
           <div class="thumbnail">
             <img src="{{hemisphere.img_url}}">
           <div class="caption">
